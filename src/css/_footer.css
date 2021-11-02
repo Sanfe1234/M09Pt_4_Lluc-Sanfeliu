@@ -1,0 +1,14 @@
+/* ------------
+    FOOTER
+ ------------ */
+
+footer{
+    width: calc(100% - 40px);
+    padding: 0 20px;
+    color: lightblue;
+    height: 40px;
+    background-color: dimgrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

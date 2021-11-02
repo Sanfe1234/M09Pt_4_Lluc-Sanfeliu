@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+
+    article {
+        width: calc(100vw - 80px);
+    }
+
+    footer {
+        height: 60px;
+        flex-flow: column;
+        padding: 20px 0;
+        width: 100%;
+
+    }
+
+    .pd-top {
+        height: 160px;
+    }
+
+    header {
+        height: 120px;
+    }
+
+    header .nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header .nav li {
+        text-align: center;
+        margin-right: 0;
+        width: 50%;
+    }
+
+
+}

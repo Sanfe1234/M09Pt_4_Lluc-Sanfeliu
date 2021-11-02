@@ -1,0 +1,34 @@
+@media (max-width: 375px) {
+
+    header{
+        height: calc(100vh - 40px);
+        position: relative;
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .title-wrapper{
+        text-align: center;
+    }
+
+    header .nav {
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        align-content: center;
+    }
+
+    header .nav li {
+        font-size: 30px;
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+    .pd-top{
+        height: 0;
+    }
+
+
+}

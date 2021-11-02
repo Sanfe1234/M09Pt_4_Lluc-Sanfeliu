@@ -1,0 +1,66 @@
+@media (max-width: 1024px) {
+
+    footer {
+        width: calc(100vw - 40px);
+        height: 60px;
+        padding: 0 20px;
+    }
+
+    section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        background-color: lightblue;
+    }
+
+    article {
+        width: calc(768px - 80px);
+        /* 100vw*9/1920 */
+        margin-right: 0;
+        height: 200px;
+        background-color: grey;
+        padding: 40px;
+        border-top: 2px solid black;
+    }
+
+    article:last-child {
+        margin-right: 0;
+    }
+
+    article .title {
+        font-size: 30px;
+        font-family: "DejaVu Sans", sans-serif;
+        color: lightblue;
+    }
+
+    article img {
+        width: 250px;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    article a {
+        margin-top: 20px;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+
+    article:first-child {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("/src/img/photo-1590846406792-0adc7f938f1d.jpg");
+    }
+
+    article:nth-child(2) {
+        border-radius: 0;
+    }
+
+    article:last-child {
+        border-bottom: 2px solid black;
+        background: linear-gradient(#e66465, #9198e5);
+    }
+
+}

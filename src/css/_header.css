@@ -1,0 +1,36 @@
+/* ------------
+    HEADER
+ ------------ */
+
+header {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: lightblue;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+
+header * {
+    color: dimgrey;
+    font-family: SimSun-ExtB, serif;
+}
+
+header .nav {
+    display: flex;
+}
+
+header .nav li {
+    margin-right: 20px;
+}
+
+header .nav li:hover {
+    color: white;
+}
+
+header .nav li:last-child {
+    margin-right: 0;
+}

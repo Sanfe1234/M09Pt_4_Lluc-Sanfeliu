@@ -1,0 +1,37 @@
+/* ------------
+    GENERALS
+ ------------ */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, Calibri;
+    list-style: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+body a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.t30{
+    font-size: 30px;
+    line-height: 1.2em;
+}
+
+.t20{
+    font-size: 20px;
+    line-height: 1.2em;
+}
+
+.pd-top{
+    height: 120px;
+}
